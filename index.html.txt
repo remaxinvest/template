@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Stables Restaurant</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> </head>
+<body>
+    <header>
+        <img src="images/472419568_10237373709942035_7487126561668227583_n.jpg" alt="The Stables Logo" class="logo">
+        <h1>The Stables Restaurant</h1>
+    </header>
+
+    <section id="about" class="container">
+        <h2>About Us</h2>
+        <p>Welcome to The Stables Restaurant! We offer a delightful dining experience with a variety of delicious breakfast and starter options. Enjoy our popular Bacon Roll, flavorful Baguettes, and many more dishes made with fresh ingredients. We are open from 10:00 AM to 9:00 PM, serving breakfast from 10:00 AM to 5:00 PM.</p>
+    </section>
+
+    <section id="menu" class="container">
+        <h2>Menu</h2>
+
+        <h3>Breakfast Menu (Served 10:00 AM - 5:00 PM)</h3>
+        <div class="menu-item">
+            <strong>(1) Bacon Roll</strong>
+            <span>150</span>
+            <p>เบคอนและขนมปังโรล</p>
+        </div>
+        <div class="menu-item">
+            <strong>(2) Sausage Roll</strong>
+            <span>150</span>
+            <p>ไส้กรอกและขนมปังโรล</p>
+        </div>
+        <div class="menu-item">
+            <strong>(3) Cheese Omelette</strong>
+            <span>160</span>
+             <p>ออมเล็ตชีส</p>
+        </div>
+        <div class="menu-item">
+            <strong>(72) Ham & Cheese Omelette</strong>
+            <span>180</span>
+            <p>แฮมและชีสออมเล็ต</p>
+        </div>
+        <div class="menu-item">
+            <strong>(4) Pancake with Bacon & Maple Syrup with fried egg</strong>
+            <span>230</span>
+            <p>(Recommendation)</p>
+            <p>แพนเค้กเบคอนและน้ำเชื่อมเมเปิ้ล</p>
+        </div>
+        <div class="menu-item">
+            <strong>(52) Smoked Salmon & Scrambled Eggs on Toast</strong>
+            <span>250</span>
+            <p>แซลมอนรมควันและไข่คนบนขนมปังปิ้ง</p>
+        </div>
+        <div class="menu-item">
+            <strong>(5) The Five Breakfast</strong>
+            <span>170</span>
+            <p>(Popular)</p>
+            <p>ไข่, เบคอน, ไส้กรอก, ขนมปัง, มะเขือเทศ</p>
+            <p>1 Egg, 1 Bacon, 1 Sausage, 1 Beans, 1/2 Tomato</p>
+        </div>
+        <div class="menu-item">
+            <strong>(6) The Stallion Breakfast</strong>
+            <span>240</span>
+            <p>ไข่ 2 ฟอง, เบคอน 2, ไส้กรอก 2, ไส้กรอกเลือดหมู 1, 1/2 มะเขือเทศ, ถั่วอบ, และแฮชบราวน์</p>
+            <p>2 Eggs, 2 Bacon, 2 Sausages, 1 Black Pudding, 1/2 Tomato, Baked Beans and Hash Brown</p>
+        </div>
+        <div class="menu-item">
+            <strong>Add-ons:</strong>
+            <ul>
+                <li>Fried Egg - 30</li>
+                <li>Scrambled Egg - 40</li>
+                <li>Sausage - 40</li>
+                <li>Bacon (2pc) - 50</li>
+                <li>Black Pudding - 40</li>
+                <li>Bread Roll - 30</li>
+                <li>Baked Beans - 30</li>
+            </ul>
+        </div>
+
+        <h3>Baguette Menu</h3>
+        <div class="menu-item">
+            <strong>(7) Ham, Cheese & Pickle</strong>
+            <span>145</span>
+            <p>แฮม, ชีสและผักดอง</p>
+        </div>
+        <div class="menu-item">
+            <strong>(8) Chicken & Bacon Baguette</strong>
+            <span>165</span>
+            <p>With Lettuce, Tomato, and Honey Mayo</p>
+            <p>ไก่และเบคอนบาแก็ตกับผักกาดหอม มะเขือเทศ และน้ำผึ้งมายองเนส</p>
+        </div>
+        <div class="menu-item">
+             <strong>(9) Ribeye Steak Baguette</strong>
+            <span>245</span>
+            <p>(Popular)</p>
+            <p>With Red Onion Chutney Lettuce and Tomato</p>
+            <p>บาแก็ตสเต็กริบอายกับหัวหอมแดง ผักกาดหอมและมะเขือเทศ</p>
+        </div>
+        <div class="menu-item">
+            <strong>(73) BLT Baguette</strong>
+            <span>145</span>
+            <p>(Recommendation)</p>
+            <p>With Bacon, Lettuce, Tomato with Mayo</p>
+            <p>เบคอนผักกาดหอม มะเขือเทศกับมายองเนส</p>
+        </div>
+        <div class="menu-item">
+            <strong>(10) Tuna Melt Baguette</strong>
+            <span>195</span>
+            <p>บาแก็ตทูน่าเมลท์</p>
+        </div>
+
+        <h3>Starters Menu (12:00 PM Onward)</h3>
+        <div class="menu-item">
+            <strong>(74) Chicken Schnitzel Caesar Salad</strong>
+            <span>249</span>
+            <p>สลัดไก่ชุบเกล็ดขนมปังซีซาร์</p>
+        </div>
+        <div class="menu-item">
+            <strong>(75) Roasted Chicken Pepper Salad</strong>
+            <span>220</span>
+            <p>สลัดไก่ย่างพริกไทยดำ</p>
+        </div>
+        <div class="menu-item">
+            <strong>(76) Smoked Salmon Salad with Lemon and Caper Dressing</strong>
+            <span>275</span>
+            <p>สลัดแซลมอนรมควันกับน้ำสลัดเลมอนและเคเปอร์</p>
+        </div>
+        <div class="menu-item">
+            <strong>(77) Spicy Shrimp Salad</strong>
+            <span>245</span>
+            <p>สลัดกุ้ง</p>
+        </div>
+        <div class="menu-item">
+            <strong>(78) Ribeye Steak Salad</strong>
+            <span>310</span>
+            <p>(Recommendation)</p>
+            <p>สลัดสเต็กริบอาย</p>
+        </div>
+        <div class="menu-item">
+            <strong>(79) Fried Garlic Chicken Wings</strong>
+            <span>6pc/120, 12pc/170</span>
+            <p>ปีกไก่ทอดกระเทียม</p>
+        </div>
+        <div class="menu-item">
+            <strong>(13) Calamari Salad</strong>
+            <span>175</span>
+            <p>Lime mayo dressing</p>
+            <p>สลัดปลาหมึกกับมายองเนสมะนาวและน้ำจิ้มหวาน</p>
+        </div>
+        <div class="menu-item">
+            <strong>(80) Ham Hock Terrine</strong>
+            <span>185</span>
+            <p>with piccalilli and crispy bread</p>
+            <p>เทอร์รีนขาหมูแฮมกับพิคคาลิลลี่และขนมปังกรอบ</p>
+        </div>
+        <div class="menu-item">
+            <strong>(15) Crispy Prawn Spring Rolls</strong>
+            <span>170</span>
+            <p>with Sweet Chili</p>
+            <p>ปอเปี๊ยะกุ้งกรอบกับพริกหวาน</p>
+        </div>
+        <div class="menu-item">
+            <strong>(16) Spicy Garlic Butter Prawns</strong>
+            <span>210</span>
+             <p>(Popular)</p>
+            <p>with Crusty Bread</p>
+            <p>กุ้งกระเทียมเนยเผ็ดกับขนมปังกรอบ</p>
+        </div>
+        <div class="menu-item">
+            <strong>(18) Nachos</strong>
+            <span>220</span>
+            <p>Topped with Salsa, Sour Cream and Jalapenos</p>
+            <p>นาโชสราดซัลซ่าครีมและฮาลาปิโญ</p>
+        </div>
+        <div class="menu-item">
+             <strong>Add on: + Beef Chilli</strong>
+            <span>70</span>
+            <p>เนื้อพริก</p>
+        </div>
+    </section>
+
+    <section id="location" class="container">
+        <h2>Location</h2>
+        <div class="google-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.7174184918926!2d100.87822287572331!3d12.928514117646115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310296414599e79d%3A0x925b6197b9125791!2sThe%20Stables%20Restaurant!5e0!3m2!1sen!2sthai!4v1707994018839!5m2!1sen!2sthai" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <section id="reviews" class="container">
+        <h2>Reviews</h2>
+        <p>"The Stables is a fantastic spot! The breakfast options are delicious, and the staff is incredibly friendly."</p>
+        <p>"I highly recommend the Ribeye Steak Baguette. It's cooked to perfection!"</p>
+        <p>"Great atmosphere and excellent service. A must-visit in Pattaya."</p>
+    </section>
+
+    <section id="photos" class="container">
+        <h2>Photos</h2>
+        <div class="photo-grid">
+            <img src="https://placehold.co/400x300/EEE/31343C?text=Dish+1&font=Montserrat" alt="Dish 1">
+            <img src="https://placehold.co/400x300/EEE/31343C?text=Dish+2&font=Montserrat" alt="Dish 2">
+            <img src="https://placehold.co/400x300/EEE/31343C?text=Dish+3&font=Montserrat" alt="Dish 3">
+            <img src="https://placehold.co/400x300/EEE/31343C?text=Restaurant+Interior&font=Montserrat" alt="Restaurant Interior">
+        </div>
+    </section>
+
+    <footer class="container">
+        <div class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=61571335213067" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        </div>
+        <p>© 2024 The Stables Restaurant. All rights reserved.</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js"></script> </body>
+</html>
